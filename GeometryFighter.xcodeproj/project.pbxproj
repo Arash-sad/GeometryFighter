@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B3E1E841D99493800D11B4A /* Explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E1E831D99493800D11B4A /* Explosion.scnp */; };
 		5BF8EDDE1D9200380059056B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8EDDD1D9200380059056B /* AppDelegate.swift */; };
 		5BF8EDE21D9200380059056B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8EDE11D9200380059056B /* GameViewController.swift */; };
 		5BF8EDE51D9200380059056B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8EDE31D9200380059056B /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B3E1E831D99493800D11B4A /* Explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explosion.scnp; sourceTree = "<group>"; };
 		5BF8EDDA1D9200380059056B /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF8EDDD1D9200380059056B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF8EDE11D9200380059056B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		5BF8EE041D963E800059056B /* Particles */ = {
 			isa = PBXGroup;
 			children = (
+				5B3E1E831D99493800D11B4A /* Explosion.scnp */,
 				5BF8EE051D963EBD0059056B /* SceneKit Particle System.scnp */,
 				5BF8EE061D963EBD0059056B /* spark.png */,
 			);
@@ -175,6 +178,7 @@
 			files = (
 				5BF8EDEA1D9200380059056B /* LaunchScreen.storyboard in Resources */,
 				5BF8EE081D963EBD0059056B /* spark.png in Resources */,
+				5B3E1E841D99493800D11B4A /* Explosion.scnp in Resources */,
 				5BF8EDE71D9200380059056B /* Assets.xcassets in Resources */,
 				5BF8EDE51D9200380059056B /* Main.storyboard in Resources */,
 				5BF8EE071D963EBD0059056B /* SceneKit Particle System.scnp in Resources */,
@@ -362,6 +366,7 @@
 				5BF8EDF01D9200380059056B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
